@@ -1,0 +1,80 @@
+.bg{
+    margin:0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #030F33;
+    background-image: url('../images/moon31080p.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.helloText{
+    color:white;
+    @each $header in (h1, h2){
+        #{$header} {
+        font-family: 'Segoe UI', Tahoma;
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 1%;
+        margin-top: 1%;
+        }
+    }
+    h1{
+        font-size:100px;
+    }
+    h2{
+        font-size: 75px;
+    }
+}
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+.sidebarWrapper{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: 1%;
+    span{
+        
+        background-color: white;
+        &:hover{
+            margin-left: 5%;
+        }
+    }
+}
+.selected{
+    width: 65px ;
+    height: 10px;
+    
+
+}
+.deselected{
+    margin-top: 25px;
+    width: 53px;
+    height: 10px;
+    
+}
+
+.sideText{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1%;
+    margin-right: 1%;
+    h3{
+        color:white;
+        font-family: 'Segoe UI', Tahoma;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        margin-top: 1%;
+
+    }
+}
