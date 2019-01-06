@@ -3,14 +3,22 @@
     right: 0;
     top: 0;
     margin-top: 1%;
-    margin-right: 1%;
+    margin-right: 2%;
+    will-change: transform;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 700px;
     h3{
         color:white;
         font-family: 'Segoe UI', Tahoma;
         font-style: normal;
         font-weight: normal;
-        font-size: 35px;
+        font-size: 45px;
         margin-top: 1%;
-
+        will-change: transform;
+        &:hover{
+            font-weight: bold;
+        }
     }
 }

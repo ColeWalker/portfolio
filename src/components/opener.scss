@@ -30,51 +30,42 @@ body{
         font-size: 75px;
     }
 }
-  ::-webkit-scrollbar {
-    display: none;
-  }
 
-.sidebarWrapper{
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    margin-left: 1%;
-    span{
-        
-        background-color: white;
-        &:hover{
-            margin-left: 5%;
-        }
-    }
-}
-.selected{
-    width: 65px ;
-    height: 10px;
-    
-
-}
-.deselected{
-    margin-top: 25px;
-    width: 53px;
-    height: 10px;
-    
-}
-
-.sideText{
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 1%;
-    margin-right: 1%;
-    h3{
-        color:white;
+.bottomText{
+    position:absolute;
+    right:0px;
+    bottom: 50px;
+    width: 30%;
+    @each $header in (h2, h3){
+        #{$header} {
         font-family: 'Segoe UI', Tahoma;
         font-style: normal;
         font-weight: normal;
-        font-size: 35px;
-        margin-top: 1%;
-
+        color: white;
+        }
     }
 }
+.contactText{
+    margin-right: 100px;
+    h2{
+        font-size: 75px;
+    }
+}
+.emailText{
+    position:absolute;
+    right: 50px;
+
+    h3{
+        font-size: 40px;
+        color: white;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+

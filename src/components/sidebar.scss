@@ -1,0 +1,27 @@
+.sidebarWrapper{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: 1%;
+    span{
+        
+        background-color: white;
+        &:hover{
+            margin-left: 5%;
+        }
+    }
+}
+.selected{
+    width: 65px ;
+    height: 10px;
+    
+
+}
+.deselected{
+    margin-top: 25px;
+    width: 53px;
+    height: 10px;
+    
+}

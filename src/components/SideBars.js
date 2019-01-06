@@ -1,5 +1,5 @@
 import React from 'react'
-import './opener.scss'
+import './sidebar.scss'
 
 var blocks =[];
 
