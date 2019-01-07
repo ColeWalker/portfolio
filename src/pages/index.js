@@ -29,12 +29,15 @@ const IndexPage = () => (
     ` } render ={(data) =>(
   <div>
     {console.log(data)}
-    <Parallax pages ={5} scrolling={false} horizontal={false}>
+    <Parallax pages ={4} scrolling={true} horizontal={false}>
       <ParallaxLayer offset={0} speed={0.5}>
         <ParaOpener />
       </ParallaxLayer>
       <ParallaxLayer offset={1} speed={0.5}>
-        <ProjectPage image={data.image}/>
+        <ProjectPage image={data.image} bgColor={"grey"}/>
+      </ParallaxLayer>
+      <ParallaxLayer offset={2} speed={0.5}>
+        <ProjectPage image={data.project2} bgColor={'red'}/>
       </ParallaxLayer>
     </Parallax>
     </div> ) }> 
