@@ -19,7 +19,7 @@ const SecondPage = () => (
   <ProjectPage content={`Lorem ipsum
    dolor amet locavore skateboard activated charcoal mixtape sartorial la croix hashtag umami four loko franzen etsy.
    Pug food truck truffaut cred plaid lyft sustainable gastropub air plant. `}
-    title={`this is a test title`} image={data.image}/> )}>
+    title={`this is a test title`} image={data.image} bgColor={'#5E5E5E'}/> )}>
    </StaticQuery>
 )
 
