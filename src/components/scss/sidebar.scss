@@ -10,8 +10,10 @@
         background-color: white;
         &:hover{
             margin-left: 5%;
+            cursor: pointer;
         }
     }
+    z-index: 1000;
 }
 .selected{
     width: 65px ;

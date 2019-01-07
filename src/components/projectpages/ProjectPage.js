@@ -1,16 +1,13 @@
 import React from 'react'
-import SideBars from '../SideBars'
-import './projectPage.scss'
+import '../scss/projectPage.scss'
 import {graphql} from 'gatsby'
 import Img from 'gatsby-image'
-import { StaticQuery } from 'gatsby'
 
-export default function ProjectPage({pageNumber, title, content, contentURL, image, bgColor }) {
+export default function ProjectPage({title, content, contentURL, image, bgColor}) {
   return (
   
     
     <div className="projectPageBg" style={{backgroundColor: bgColor}}>
-      <SideBars id={pageNumber}/>
       <div className={"projectPageWiring"}>
             <div className={"projectContentContainer"}>
                 <h1 className="projectTitle">{title}</h1>
@@ -23,7 +20,7 @@ export default function ProjectPage({pageNumber, title, content, contentURL, ima
                 
             </div>
       </div>
-      <Img fluid={image.childImageSharp.fluid} className={"sideImage"}/>
+      <Img fluid={image.childImageSharp.fluid} className={"sideImage"} />
     </div>
 
   )
