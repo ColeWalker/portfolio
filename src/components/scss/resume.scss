@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+
+}
+.aboutMeWrapper{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+.myName{
+    text-align: center;
+    margin-top: 3%;
+}
+.resumeBody{
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+.subTextWrapper{
+    width: 75%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumeTechSkills{
+    p{
+       margin-left: 7%; 
+    }
+    
+}
+.theProcessHeader{
+    text-align: center;
+    margin-top: 5%;
+}
+.theProcess{
+    width: 550px;
+    margin: 0 auto;
+}

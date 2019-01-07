@@ -30,11 +30,9 @@
 }
 
 .aboutMeText{
-    width: 925px;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 3%;
+
     color:white;
+    margin-top: 2%;
     font-size: 33px;
 }
 .leftColoredBar{
@@ -54,4 +52,23 @@
         margin-top:7%;
         margin-bottom: 3%;
     
+}
+.buttonWrapper{
+    font-size:30px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    p{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    width: 900px;
 }

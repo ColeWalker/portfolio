@@ -9,16 +9,21 @@ export default function AboutMe() {
         <h1 className="aboutMeHeader"> About Me</h1>
         <div className="contentWrapper">
             <div className="leftColoredBar"></div>
-            
-            <p className="aboutMeText">
-            I am full-stack web developer based in Bergen County New Jersey,
-            currently a third-year student studying Computer Science at William Paterson University.
-            I am incredibly passionate about web development and design, and have been working vigorously towards
-            mastering the tools that modern web developers use. Some of my favorite technologies to work with are Gatsby,
-            React, and Node.js. 
-            </p>
-            <div className="rightColoredBar"></div>
+            <div className="textWrapper">
+              <p className="aboutMeText">
+                  I am full-stack web developer based in Bergen County New Jersey,
+                  currently a third-year student studying Computer Science at William Paterson University.
+                  I am incredibly passionate about web development and design, and have been working vigorously towards
+                  mastering the tools that modern web developers use. Some of my favorite technologies to work with are Gatsby,
+                  React, and Node.js. 
+              </p>
+              <button className="buttonWrapper">
+                See More
+              </button>
+          </div>
+          <div className="rightColoredBar"></div>
         </div>
+        
       </div>
     </div>
   )
