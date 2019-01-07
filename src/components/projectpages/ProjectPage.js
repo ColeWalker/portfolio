@@ -5,12 +5,12 @@ import {graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { StaticQuery } from 'gatsby'
 
-export default function ProjectPage({data, title, content, contentURL, image, bgColor }) {
+export default function ProjectPage({pageNumber, title, content, contentURL, image, bgColor }) {
   return (
   
     
     <div className="projectPageBg" style={{backgroundColor: bgColor}}>
-      <SideBars id={1}/>
+      <SideBars id={pageNumber}/>
       <div className={"projectPageWiring"}>
             <div className={"projectContentContainer"}>
                 <h1 className="projectTitle">{title}</h1>
