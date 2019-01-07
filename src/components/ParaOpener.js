@@ -1,7 +1,7 @@
 import React from 'react';
 import './opener.scss';
 import SideBars from './SideBars'
-import SideText from './SideText'
+import SideText from './opener/SideText'
 const ParaOpener = ()=> (
     <div className="bg">
         <span className="helloText">

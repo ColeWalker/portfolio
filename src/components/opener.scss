@@ -3,14 +3,12 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
-}
-
-body{
     background-color: #030F33;
     background-image: url('../images/moon31080p.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .helloText{
     color:white;
@@ -19,7 +17,7 @@ body{
         font-family: 'Segoe UI', Tahoma;
         font-style: normal;
         font-weight: normal;
-        margin-left: 1%;
+        margin-left: 5%;
         margin-top: 1%;
         }
     }

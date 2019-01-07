@@ -1,0 +1,63 @@
+.projectPageBg{
+    min-width: 100vh;
+    height: 100vh;
+    background-color: #5E5E5E;
+}
+.projectPageWiring{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    height: 90vh;
+    width: 170vh;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+}
+
+.projectContentContainer{
+    color: white;
+    font-family: 'Segoe UI', Tahoma;
+    font-style: normal;
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 75%;
+    
+}
+
+.projectTitle{
+    font-weight: normal;
+    font-size: 75px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.coloredBar{
+    background-color: #4EC5DE;
+    height: 3px;
+    width: 20vh;
+    margin-left: 7%;
+    margin-top:7%;
+    margin-bottom: 3%;
+
+}
+.contentText{
+    width:669px;
+    margin-left: 25%;
+    font-size: 40px;
+    overflow: hidden;
+}
+.linkToSite{
+    margin-left: 50%;
+    margin-top: 5%;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+}
+
+.sideImage{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    float: right;
+    margin-right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}

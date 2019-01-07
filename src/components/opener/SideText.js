@@ -18,8 +18,7 @@ export default function SideText() {
             {item => props =>
                 <span style={props} >{item}</span>
             }
-            </Trail> 
+            </Trail>  
         </div>
-    
   )
 }
