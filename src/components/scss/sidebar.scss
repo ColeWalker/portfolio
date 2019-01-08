@@ -9,8 +9,10 @@
         
         background-color: white;
         &:hover{
-            margin-left: 5%;
             cursor: pointer;
+            animation-name: selectedAnim;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
         }
     }
     z-index: 1000;
@@ -19,8 +21,23 @@
     width: 65px ;
     height: 14px;
     margin-top: 25px;
-
+    animation-name: selectedAnim;
+    animation-duration: .5s;
 }
+
+@keyframes selectedAnim {
+    0% {
+        margin-left: 0%;
+    }
+    50%{
+        margin-left: 20%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+
+
 .deselected{
     margin-top: 25px;
     width: 53px;

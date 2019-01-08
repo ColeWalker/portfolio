@@ -41,12 +41,12 @@ export default class ParallaxWrapper extends Component {
                         <ParallaxLayer offset={1} speed={0}>
                             <SideBars id={1} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
                             scrollTo2={()=>this.parallax.scrollTo(2)}  scrollTo3={()=>this.parallax.scrollTo(3)}/>
-                            <ProjectPage image={data.image} bgColor={"#5E5E5E"} pageNumber={1} title={popPunkPunditTitle} content={popPunkPunditContent} />
+                            <ProjectPage image={data.image} bgColor={"#5E5E5E"} pageNumber={1} title={popPunkPunditTitle} content={popPunkPunditContent} contentURL={"https://www.poppunkpundit.com/"}/>
                         </ParallaxLayer>
                         <ParallaxLayer offset={2} speed={0}>
                             <SideBars id={2} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
                             scrollTo2={()=>this.parallax.scrollTo(2)}  scrollTo3={()=>this.parallax.scrollTo(3)}/>
-                            <ProjectPage image={data.project2} bgColor={'#083303'} pageNumber={2} title={coleBlogTitle} content={coleBlogContent}/>
+                            <ProjectPage image={data.project2} bgColor={'#083303'} pageNumber={2} title={coleBlogTitle} content={coleBlogContent} contentURL={"https://coleblog.me/"}/>
                         </ParallaxLayer>
                         <ParallaxLayer offset={3} speed={0}>
                             <SideBars id={3} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
@@ -70,6 +70,6 @@ simple to maintain and post to.`
 
 const coleBlogTitle="Cole.Blog"
 const coleBlogContent= `A development blog carefully designed and programmed by me. 
-Using graphql queries in tandem with Gatsby, React, Node.js, styled-components, and React, I was able to craft a beautiful and fast 
+Using graphql queries in tandem with Gatsby, React, and styled-components, I was able to craft a beautiful and fast 
 website which would the perfect environment for me to document my learnings as I progress through my development journey. 
 `

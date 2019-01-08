@@ -1,6 +1,5 @@
 import React from 'react';
 import '../scss/opener.scss';
-import SideBars from '../SideBars'
 import SideText from './SideText'
 const ParaOpener = ()=> (
     <div className="bg">

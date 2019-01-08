@@ -1,6 +1,6 @@
 import React from 'react'
 import '../scss/aboutMe.scss'
-
+import { Link } from 'gatsby'
 
 export default function AboutMe() {
   return (
@@ -17,9 +17,9 @@ export default function AboutMe() {
                   mastering the tools that modern web developers use. Some of my favorite technologies to work with are Gatsby,
                   React, and Node.js. 
               </p>
-              <button className="buttonWrapper">
+              <Link to={'/resume'} className={"buttonWrapper"}><button className="buttonWrapper">
                 See More
-              </button>
+              </button></Link>
           </div>
           <div className="rightColoredBar"></div>
         </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import SEO from '../components/seo'
 import '../components/scss/resume.scss'
-
+import { FaGithub, FaHome  } from 'react-icons/fa'
+import { Link } from 'gatsby';
 export default function resume() {
   return (
     <div className={"resumeBg"}>
@@ -47,10 +48,17 @@ export default function resume() {
                     as React-Spring to my advantage. Additionally, I use a typical Agile method of coding and constant testing, so as to catch errors immediately. 
                 </p>
                 <p>
-                    Finally, I will launch the site on a remote server to test for errors that might not appear on machine and fix them accordingly. After this, I have completed my project. 
+                    Finally, I launch the site on a remote server to test for errors that might not appear on machine and fix them accordingly. After this, I have completed my project. 
                 </p>
-            </div>
-            </div>            
+                <span className={"iconContainer"}>
+
+                    <a href={'https://github.com/ColeWalker'}><FaGithub className={"gitIcon"}/> </a>
+                    <Link to={"/"}><FaHome className={"homeIcon"}/></Link>
+                </span>
+            </div> 
+             
+            </div> 
+                    
           </div>
       </main>
     </div>

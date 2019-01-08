@@ -1,6 +1,9 @@
 body{
-    background-color: grey;
+    background-color: #432818;
 
+}
+p{
+    font-size: 24px;
 }
 .aboutMeWrapper{
     margin-left: 7%;
@@ -40,6 +43,31 @@ body{
     margin-top: 5%;
 }
 .theProcess{
-    width: 550px;
+    width: 600px;
     margin: 0 auto;
+    font-size: 25px;
+}
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    margin-right: 2%;
+}
+Link{
+    margin-right: 2%;
+}
+.gitIcon{
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    color: white;
+}
+.homeIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+    color: white;
 }

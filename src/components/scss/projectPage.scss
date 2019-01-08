@@ -46,11 +46,17 @@
     font-size: 32px;
     overflow: hidden;
 }
+
+
+
 .linkToSite{
     margin-left: 50%;
     margin-top: 5%;
     font-size: 30px;
     padding: 10px 30px 10px 30px;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .sideImage{
