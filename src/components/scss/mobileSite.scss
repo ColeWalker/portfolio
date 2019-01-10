@@ -2,11 +2,11 @@
     width: 100%;
     height: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 .mobileContentWrapper{
-    width: 50%;
-    margin-left: 7%;
-    margin-right: 7%;
+    width: 75%;
 }
 .mobileHeader{
     text-align: center;
