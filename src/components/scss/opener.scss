@@ -2,13 +2,17 @@
     margin:0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     background-color: #030F33;
     background-image: url('../../images/moon31080p.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.openerContent{
+    max-width: 1920px;
+    max-height: 1080px;
+}
 
 .helloText{
     color:white;
@@ -58,12 +62,6 @@
         color: white;
     }
 }
-
-
-
-::-webkit-scrollbar {
-    display: none;
-  }
 
 
 

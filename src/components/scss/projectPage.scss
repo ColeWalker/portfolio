@@ -40,10 +40,10 @@
 
 }
 .contentText{
-    width:700px;
-    height: 400px;
+    max-width: 55%;
+    max-height: 50%;
     margin-left: 20%;
-    font-size: 32px;
+    font-size: 30px;
     overflow: hidden;
 }
 
@@ -53,6 +53,7 @@
     margin-left: 50%;
     margin-top: 5%;
     font-size: 30px;
+    margin-bottom: 1%;
     padding: 10px 30px 10px 30px;
     &:hover{
         cursor: pointer;
@@ -60,11 +61,12 @@
 }
 
 .sideImage{
-    width: 600px;
-    height: 800px;
+    width: 30%;
+    height: 80%;
     position: relative;
     float: right;
     margin-right: 1%;
+    margin-left: 1%;
     top: 50%;
     transform: translateY(-50%);
 }
