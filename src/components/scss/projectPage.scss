@@ -63,10 +63,26 @@
 .sideImage{
     width: 30%;
     height: 80%;
-    position: relative;
+    position: absolute;
     float: right;
     margin-right: 1%;
     margin-left: 1%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+/* Scaling rules... non-mobile */
+
+@media screen and (max-width: 1700px){
+    .sideImage{
+        width: 20%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .sideImage{
+        display: none;
+    }
 }

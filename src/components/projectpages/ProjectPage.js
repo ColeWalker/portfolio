@@ -18,6 +18,7 @@ export default function ProjectPage({title, content, contentURL, image, bgColor}
                 <a href={contentURL}><button className="linkToSite"> Live Site </button></a>
                 
             </div>
+            
       </div>
       <Img fluid={image.childImageSharp.fluid} className={"sideImage"} />
     </div>

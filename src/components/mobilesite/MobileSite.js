@@ -15,8 +15,7 @@ export default function AboutMe() {
                   React, and Node.js. 
               </p>
           </div>
-        </div>
-        
+        </div> 
       </div>
   )
 }
