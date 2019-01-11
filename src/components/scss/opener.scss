@@ -48,20 +48,29 @@
     }
 }
 .contactText{
-    margin-right: 100px;
+    margin-right: 2%;
     h2{
         font-size: 75px;
     }
 }
 .emailText{
     position:absolute;
-    right: 50px;
-
+    right: 1.5%;
     h3{
         font-size: 40px;
         color: white;
     }
 }
 
-
-
+@media screen and (max-width: 1200){
+    .contactText{
+        h2{
+            font-size: 55px;
+        }
+    }
+    .emailText{
+        h3{
+        
+        }
+    }
+}
