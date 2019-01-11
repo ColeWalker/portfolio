@@ -11,7 +11,7 @@
     border-style: solid;
     border-color: white;
     height: 90vh;
-    width: 170vh;
+    width: 80%;
     position: absolute;
     left: 12%;
     top: 5%;
@@ -57,8 +57,8 @@
 .buttonWrapper{
     font-size:30px;
     margin: 0 auto;
-    width: 300px;
-    height: 100px;
+    width: 80%;
+    height: 10vh;
     p{
         text-align: center;
         vertical-align: middle;
@@ -72,4 +72,22 @@
     margin-right: 7%;
     margin-top: 2%;
     width: 900px;
+}
+
+@media screen and (max-width: 1500px), (max-height: 720px){
+    .aboutMeText{
+        font-size: 20px;
+    }
+    .leftColoredBar, .rightColoredBar{
+        width: 15vh;
+    }
+    .buttonWrapper{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1800px), (max-height:900px){
+    .aboutMeText{
+        font-size: 25px;
+    }
 }
