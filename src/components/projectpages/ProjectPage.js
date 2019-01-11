@@ -3,9 +3,7 @@ import '../scss/projectPage.scss'
 import Img from 'gatsby-image'
 
 export default function ProjectPage({title, content, contentURL, image, bgColor}) {
-  return (
-  
-    
+  return (   
     <div className="projectPageBg" style={{backgroundColor: bgColor}}>
       <div className={"projectPageWiring"}>
             <div className={"projectContentContainer"}>
@@ -13,15 +11,14 @@ export default function ProjectPage({title, content, contentURL, image, bgColor}
                 <div className={"coloredBar"}></div>
                 <p className={"contentText"}>
                     {content}
-                    {console.log(image)}
                 </p>
-                <a href={contentURL}><button className="linkToSite"> Live Site </button></a>
-                
+                <span class="buttonWrapper">
+                  <a href={contentURL}><button className="linkToSite"> Live Site </button></a>
+                </span> 
             </div>
             
-      </div>
+      </div>  
       <Img fluid={image.childImageSharp.fluid} className={"sideImage"} />
     </div>
-
   )
 }

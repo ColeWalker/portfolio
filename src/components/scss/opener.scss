@@ -62,7 +62,10 @@
     }
 }
 
-@media screen and (max-width: 1200){
+@media screen and (max-width: 1200px){
+    .bg{
+        background-image: none;
+    }
     .contactText{
         h2{
             font-size: 55px;
