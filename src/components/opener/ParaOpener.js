@@ -8,7 +8,6 @@ const ParaOpener = ()=> (
             <h2>Hello,</h2>
             <h1>I'm Cole.</h1>
         </span>
-        
         <SideText />
         <div className="bottomText">
             <span className="contactText"><h2>Contact Me</h2></span>
