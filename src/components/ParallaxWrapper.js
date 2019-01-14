@@ -32,7 +32,7 @@ export default class ParallaxWrapper extends Component {
         render ={(data) =>(
             <div>
                 <React.Fragment>
-                    <Parallax pages ={4} scrolling={false} horizontal={false} ref={ref => this.parallax = ref}>
+                    <Parallax pages ={4} scrolling={true} horizontal={false} ref={ref => this.parallax = ref}>
                         <ParallaxLayer offset={0} speed={0} >
                             <SideBars id={0} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
                             scrollTo2={()=>this.parallax.scrollTo(2)}  scrollTo3={()=>this.parallax.scrollTo(3)}/>

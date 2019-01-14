@@ -18,7 +18,7 @@ export default function ProjectPage({title, content, contentURL, image, bgColor}
             </div>
             
       </div>  
-      <Img fluid={image.childImageSharp.fluid} className={"sideImage"} />
+      <Img fluid={image.childImageSharp.fluid} alt={'Screenshot of the project'} className={"sideImage"} />
     </div>
   )
 }
