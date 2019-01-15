@@ -91,3 +91,22 @@
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 700px){
+    .aboutMeWiring{
+        width: 75%;
+        left: 20%;
+    }
+    .aboutMeHeader{
+        font-size: 40px;
+    }
+    .leftColoredBar, .rightColoredBar{
+        display: none;
+    }
+    .aboutMeText{
+        font-size: 17px;
+    }
+    .buttonWrapper{
+        font-size: 17px;
+    }
+}

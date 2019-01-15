@@ -77,3 +77,28 @@
         }
     }
 }
+
+@media screen and (max-width: 700px){
+    .helloText{
+      h1{
+          font-size: 35px;
+      } 
+      h2{
+          font-size: 30px;
+      }
+    }
+
+
+    .contactText{
+        h2{
+            font-size: 22px;
+        }
+    }
+    .emailText{
+        h3{
+            font-size: 22px;
+        }
+        
+    }
+
+}

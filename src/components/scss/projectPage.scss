@@ -103,3 +103,19 @@
         font-size: 20px;
     }
 }   
+
+@media screen and (max-width: 700px){
+    .projectPageWiring{
+        left: 20%;
+        width: 75%;
+    }
+    .projectTitle{
+        font-size: 40px;
+    }
+    .contentText{
+        font-size: 17px;
+    }
+    .linkToSite{
+        font-size: 17px;
+    }
+}
