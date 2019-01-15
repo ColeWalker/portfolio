@@ -1,2 +1,7 @@
 <h1>My portfolio, built using gatsby.js</h1>
-<p>You should hire me, my code is awesome, I'm eager to learn, and I'm an incredibly hard worker.</p>
+<h2>Other Tech Used<h2>
+<ul>
+  <li>grapohql</li>
+  <li>SASS</li>
+  <li>React-Spring</li>
+</ul>
