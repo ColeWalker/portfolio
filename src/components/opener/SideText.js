@@ -7,7 +7,7 @@ export default function SideText() {
     const items = [
         <h3>Full-Stack Engineer</h3>,
         <h3>Specializing in React and Node.js</h3>,
-        <h3>Looking for an internship</h3>,]
+        <h3>Looking for Freelance Work</h3>,]
   return (
       <div className="sideText">
           <Trail

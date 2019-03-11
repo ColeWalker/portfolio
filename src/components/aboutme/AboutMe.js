@@ -8,7 +8,6 @@ export default function AboutMe() {
       <div className="aboutMeWiring">
         <h1 className="aboutMeHeader"> About Me</h1>
         <div className="contentWrapper">
-            <div className="leftColoredBar"></div>
             <div className="textWrapper">
               <p className="aboutMeText">
                   I am full-stack web developer based in Bergen County New Jersey,
