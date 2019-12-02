@@ -41,12 +41,12 @@ export default class ParallaxWrapper extends Component {
                         <ParallaxLayer offset={1} speed={0}>
                             <SideBars id={1} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
                             scrollTo2={()=>this.parallax.scrollTo(2)}  scrollTo3={()=>this.parallax.scrollTo(3)}/>
-                            <ProjectPage image={data.image} bgColor={"#5E5E5E"} pageNumber={1} title={popPunkPunditTitle} content={popPunkPunditContent} contentURL={"https://www.poppunkpundit.com/"}/>
+                            <ProjectPage image={data.image} bgColor={"#030f33"} pageNumber={1} title={popPunkPunditTitle} content={popPunkPunditContent} contentURL={"https://www.poppunkpundit.com/"}/>
                         </ParallaxLayer>
                         <ParallaxLayer offset={2} speed={0}>
                             <SideBars id={2} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
                             scrollTo2={()=>this.parallax.scrollTo(2)}  scrollTo3={()=>this.parallax.scrollTo(3)}/>
-                            <ProjectPage image={data.project2} bgColor={'#083303'} pageNumber={2} title={coleBlogTitle} content={coleBlogContent} contentURL={"https://coleblog.me/"}/>
+                            <ProjectPage image={data.project2} bgColor={'#030f33'} pageNumber={2} title={coleBlogTitle} content={coleBlogContent} contentURL={"https://romantic-boyd-a91d0a.netlify.com/"}/>
                         </ParallaxLayer>
                         <ParallaxLayer offset={3} speed={0}>
                             <SideBars id={3} scrollTo={()=>this.parallax.scrollTo(0)} scrollTo1={()=>this.parallax.scrollTo(1)} 
