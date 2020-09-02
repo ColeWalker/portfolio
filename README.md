@@ -1,7 +1,6 @@
-<h1>My portfolio, built using gatsby.js</h1>
-<h2>Other Tech Used<h2>
-<ul>
-  <li>grapohql</li>
-  <li>SASS</li>
-  <li>React-Spring</li>
-</ul>
+# My old portfolio
+
+This portfolio is very old. This was something that I built as a newbie in the web development scene, and I have grown and learned a lot since then. I would not recommend replicating any of the code that is here. It remains in this public repository because I believe that it is important to
+archive my past works and to show how far I have come as a developer.
+
+A [newer, better written, and better designed portfolio's repository](https://github.com/ColeWalker/portfolio-redesign) is available.
